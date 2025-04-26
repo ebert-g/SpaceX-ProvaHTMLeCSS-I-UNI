@@ -276,7 +276,6 @@ nav ul li a {
 .site-footer {
     position: relative;
     overflow: hidden;
-    /* volta uma pasta (css/) para chegar em images/ */
     background: url("../images/bg_footer.png") no-repeat right bottom;
     background-size: cover;
     background-color: #000;
@@ -368,3 +367,4 @@ nav ul li a {
     height: 2px;
     background-color: #fff;
 }
+
