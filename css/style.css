@@ -56,6 +56,10 @@ nav ul li a {
     white-space: nowrap;
 }
 
+nav ul li a:hover {
+    border-bottom: 1.9px solid #fff;
+}
+
 #shop {
     display: flex;
     align-items: center;
