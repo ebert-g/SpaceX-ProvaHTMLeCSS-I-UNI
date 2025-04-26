@@ -24,8 +24,8 @@ header {
 }
 
 header a img {
-    width: 210px;
-    height: 34.416px;
+    width: 220px;
+    height: auto;
 }
 
 nav {
@@ -61,7 +61,26 @@ nav ul li a {
     margin: 0;
 }
 
+#section_space_travel {
+    position: relative;
+    background-image: url("../images/HS-hero\ 1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#section_space_travel #formulario {
+    position: relative;
+    z-index: 2;
+
+}
+
+#section_space_travel
 
 #section_chamada {
     display: flex;
@@ -90,23 +109,22 @@ nav ul li a {
 }
 
 .div_chamada button {
-    background-color:black;      
-    color: #fff;                   
-    border: none;                   
-    padding: 0.5rem 1rem;          
-    cursor: pointer;                
-    margin-bottom: 0.75rem;        
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-bottom: 0.75rem;
     text-transform: uppercase;
-    border: 2px solid #fff; 
+    border: 2px solid #fff;
     font-weight: bold;
     transition: all 0.3 ease;
-                      
 }
 
 .div_chamada button:hover {
-    background-color:darkslategrey;  
+    background-color: darkslategrey;
     color: #000;
-    border: 2px solid #fff;   
+    border: 2px solid #fff;
 }
 
 .div_chamada img {
