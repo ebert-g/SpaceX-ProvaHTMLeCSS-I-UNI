@@ -84,7 +84,53 @@ nav ul li a {
 }
 
 #section_space_travel h2 {
-    
+    width: 272px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -0.48px;
+}
+
+#section_space_travel p {
+    font-style: normal;
+    line-height: 140%;
+    color: #757575;
+}
+
+#section_space_travel #formulario label {
+    color: white;
+    margin-bottom: 8px;
+    display: block;
+    font-size: 14px;
+}
+
+#section_space_travel #formulario input,
+#section_space_travel #formulario select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+}
+
+#section_space_travel #formulario button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff4f5a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#section_space_travel #formulario button:hover {
+    background-color: #ff3035;
 }
 
 #section_space_travel#textoBanner {
