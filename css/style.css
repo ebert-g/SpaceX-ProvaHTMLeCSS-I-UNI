@@ -112,7 +112,7 @@ nav ul li a {
     border: 1px solid #fff;
     border-radius: 8px;
     border: 1px solid #fff;
-    color: #1E1E1E;
+    color: #1e1e1e;
     font-size: 16px;
 }
 
@@ -189,7 +189,7 @@ nav ul li a {
     margin-top: 0;
 }
 
-footer{
+footer {
     background-color: #000;
     color: #fff;
     padding: 2rem 1rem;
@@ -198,14 +198,11 @@ footer{
     overflow: hidden;
     background-image: url(/images/bg_footer.png);
     background-size: cover;
-    background-position: top center ;
+    background-position: top center;
     background-repeat: no-repeat;
     padding-top: 18%;
     height: 500px;
-   
-
 }
-
 
 .footer_container {
     display: flex;
@@ -216,11 +213,11 @@ footer{
     top: 20%;
     left: 50%;
     transform: translateX(-50%);
-    gap: 1rem; 
-    z-index: 10;   
+    gap: 1rem;
+    z-index: 10;
 }
 
-.footer_text{
+.footer_text {
     font-size: 1rem;
     margin-bottom: 1rem;
 }
@@ -244,7 +241,7 @@ footer{
 }
 
 .footer_links {
-    display:flex;
+    display: flex;
     justify-content: center;
     gap: 2rem;
 }
@@ -270,4 +267,3 @@ footer{
     opacity: 0.7;
     margin-top: 1rem;
 }
-
