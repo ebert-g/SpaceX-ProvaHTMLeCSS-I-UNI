@@ -17,10 +17,12 @@ main {
 
 header {
     width: 100%;
+    max-width: 1357px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 31.9px 40px 43px 40px;
 }
 
 header a img {
@@ -31,12 +33,13 @@ header a img {
 nav {
     display: flex;
     align-items: center;
+    gap: 60px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 48px;
 }
 
 nav ul li {
@@ -46,7 +49,9 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
 }
 
 #shop {
@@ -173,8 +178,6 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     gap: 15px;
-
-    
 }
 
 #section_chamada {
@@ -276,7 +279,6 @@ nav ul li a {
 .site-footer {
     position: relative;
     overflow: hidden;
-    /* volta uma pasta (css/) para chegar em images/ */
     background: url("../images/bg_footer.png") no-repeat right bottom;
     background-size: cover;
     background-color: #000;
