@@ -34,12 +34,6 @@ nav {
     display: flex;
     align-items: center;
     gap: 40px;
-<<<<<<< HEAD
-=======
-    gap: 60px;
-    margin-top: 4px;
-    margin-left: 30px;
->>>>>>> 6e84f62059113b012f0ca1aa99a40935286bd369
 }
 
 nav ul {
@@ -333,7 +327,6 @@ nav ul li a {
 .site-footer .inquiry a {
     color: #fff;
     text-decoration: underline;
-    
 }
 
 .site-footer .btn-contact {
@@ -347,7 +340,6 @@ nav ul li a {
     text-decoration: none;
     color: #fff;
     margin-left: -40rem;
- 
 }
 
 .site-footer .footer-bottom {
@@ -358,7 +350,6 @@ nav ul li a {
     margin-left: 2rem;
     gap: 4rem;
     width: max-content;
-    
 }
 
 .site-footer .footer-bottom .copyright {
@@ -381,7 +372,6 @@ nav ul li a {
     text-transform: uppercase;
     color: #fff;
     text-decoration: none;
-
 }
 
 .site-footer .footer-nav a::after {
