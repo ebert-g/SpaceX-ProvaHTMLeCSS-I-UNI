@@ -11,8 +11,8 @@ body {
 }
 
 main {
-    width: 1440px; /* Largura do conteúdo */
-    height: 100%; /* Altura ocupada pelo conteúdo */
+    width: 1440px;
+    height: 100%; 
     /*overflow: hidden;  Impede que apareçam barras de rolagem */
     padding: 20px;
 }
