@@ -22,12 +22,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 32px 40px;
+    padding: 16px 40px;
 }
 
 header a img {
-    width: 220px;
-    height: auto;
+    width: 210px;
+    height: 34.416px;
 }
 
 nav {
@@ -50,9 +50,13 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #fff;
-    font-size: 13px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.5px;
     text-transform: uppercase;
     white-space: nowrap;
+    line-height: normal;
 }
 
 #shop {
@@ -65,10 +69,10 @@ nav ul li a {
 #shop p {
     color: #fff;
     margin: 0;
-    font-size: 12px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
 }
 
 #icon {
@@ -328,7 +332,6 @@ nav ul li a {
 .site-footer .inquiry a {
     color: #fff;
     text-decoration: underline;
-    
 }
 
 .site-footer .btn-contact {
@@ -342,7 +345,6 @@ nav ul li a {
     text-decoration: none;
     color: #fff;
     margin-top: 4rem;
-    
 }
 
 .site-footer .footer-bottom {
@@ -353,8 +355,6 @@ nav ul li a {
     margin-left: 2rem;
     gap: 4rem;
     width: max-content;
-    
-   
 }
 
 .site-footer .footer-bottom .copyright {
@@ -377,7 +377,6 @@ nav ul li a {
     text-transform: uppercase;
     color: #fff;
     text-decoration: none;
-
 }
 
 .site-footer .footer-nav a::after {
