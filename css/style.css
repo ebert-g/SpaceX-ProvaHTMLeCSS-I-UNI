@@ -77,10 +77,20 @@ nav ul li a {
 #section_space_travel #formulario {
     position: relative;
     z-index: 2;
-
+    color: #fff;
+    width: 100%;
+    padding: 30px 40px;
+    max-width: 500px;
 }
 
-#section_space_travel
+#section_space_travel h2 {
+    
+}
+
+#section_space_travel#textoBanner {
+    position: relative;
+    z-index: 2;
+}
 
 #section_chamada {
     display: flex;
