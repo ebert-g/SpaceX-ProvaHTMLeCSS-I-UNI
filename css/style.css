@@ -52,4 +52,9 @@ header {
     background-color: #ff4f5a;
     color: #fff;
     border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    border-radius: 5px;
 }
