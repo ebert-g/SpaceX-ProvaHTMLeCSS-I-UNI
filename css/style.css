@@ -34,7 +34,7 @@ main {
     display: flex;                  
     flex-direction: column;         
     align-items: center;            
-    border-radius: 10px;            
+              
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
     margin-bottom: 0;               
 }
@@ -52,7 +52,7 @@ main {
     cursor: pointer;                
     margin-bottom: 0.75rem;        
     text-transform: uppercase;      
-    border-radius: 5px;             
+                 
 }
 
 
@@ -63,6 +63,6 @@ main {
 .div_chamada img {
     width: 100%;                    
     height: auto;                  
-    border-radius: 5px;             
+                
     margin-top: 0;                  
 }
