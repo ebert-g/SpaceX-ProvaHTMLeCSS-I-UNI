@@ -32,10 +32,16 @@ nav {
     display: flex;
     align-items: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     gap: 60px;
     margin-top: 4px;
 >>>>>>> 6e84f62059113b012f0ca1aa99a40935286bd369
+=======
+    gap: 40px;
+    margin-left: 30px;
+
+>>>>>>> 71511f2adb2393292e689ed01022c0c8215711a4
 }
 
 nav ul {
@@ -54,6 +60,10 @@ nav ul li a {
     font-size: 13px;
     text-transform: uppercase;
     white-space: nowrap;
+}
+
+nav ul li a:hover {
+    border-bottom: 1.9px solid #fff;
 }
 
 #shop {
