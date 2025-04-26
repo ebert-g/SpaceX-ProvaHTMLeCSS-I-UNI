@@ -75,12 +75,14 @@ nav ul li a {
 }
 
 #section_space_travel #formulario {
-    position: relative;
-    z-index: 2;
-    color: #fff;
-    width: 100%;
-    padding: 30px 40px;
-    max-width: 500px;
+    position: absolute;
+    top: 44px;
+    left: 95.42px;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
 }
 
 #section_space_travel h2 {
@@ -118,38 +120,61 @@ nav ul li a {
     color: white;
 }
 
-
 .checkbox-container {
     display: flex;
     align-items: flex-start;
     gap: 10px;
-    margin: 20px 0;
+    font-size: 0.875rem;
+    color: #757575;
 }
 
 .checkbox-container input[type="checkbox"] {
-    margin
+    margin-top: 4px;
+    width: 16px;
+    height: 16px;
 }
 
+.checkbox-text {
+    display: flex;
+    flex-direction: column;
+}
 
+.checkbox-text span {
+    font-size: 0.875rem;
+    color: #757575;
+}
 
+.checkbox-text a {
+    font-size: 0.875rem;
+    color: #757575;
+    text-decoration: underline;
+}
 
 #section_space_travel #formulario button {
     width: 100%;
     padding: 12px;
     background-color: transparent;
     color: white;
-    border: none;
+    border: 1px solid #fff;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
     cursor: pointer;
     font-weight: bold;
+    margin-top: 0;
 }
 
+#textoBanner {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    max-width: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 
-#section_space_travel#textoBanner {
-    position: relative;
-    z-index: 2;
+    
 }
 
 #section_chamada {
@@ -201,6 +226,49 @@ nav ul li a {
     width: 100%;
     height: auto;
     margin-top: 0;
+}
+
+#banner_mars {
+    position: relative;
+    background-image: url("../images/STARSHIP_CAPABILITIES_INTERPLANETARYDESTINATIONS_Mars_01_2023_01_Desktop_Darkerv2 1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    color: white;
+    text-align: center;
+}
+
+.content_mars {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.content_mars h2 {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.content_mars .subtitulo {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ccc;
+}
+
+.content_mars blockquote {
+    font-size: 18px;
+    color: #ccc;
+    line-height: 1.5;
+    margin-top: 20px;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&display=swap");
