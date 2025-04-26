@@ -35,7 +35,6 @@
                 </nav>
             </header>
             <section id="section_space_travel">
-               
                 <div id="formulario">
                     <h2>Space travel</h2>
                     <p>Choose your destination</p>
@@ -58,14 +57,13 @@
                             name="addinfo"
                             placeholder="Value"
                         />
-                        <label for="termos">
-                            <input
-                                type="checkbox"
-                                name="termos"
-                                id="termos"
-                                name="termos"
-                            />I accept the terms <a href="#">Read our T&Cs</a>
-                        </label>
+                        <div class="checkbox-container">
+                            <input type="checkbox" id="termos" name="termos" />
+                            <div class="checkbox-text">
+                                <span>I accept the terms</span>
+                                <a href="#">Read our T&Cs</a>
+                            </div>
+                        </div>
                         <button type="submit">START SPACEWALK</button>
                     </form>
                 </div>
@@ -81,7 +79,7 @@
                     </p>
                 </div>
             </section>
-            
+
             <section id="section_chamada">
                 <div class="div_chamada">
                     <h3>UPCOMING LAUNCH</h3>
@@ -131,25 +129,25 @@
             </section>
 
             <footer class="site-footer">
-              
                 <div class="footer-top">
-                  <p class="inquiry">
-                    For inquiries about our human spaceflight program, contact
-                    <a href="mailto:sales@spacex.com">sales@spacex.com</a>
-                  </p>
-                  <a href="mailto:sales@spacex.com" class="btn-contact">CONTACT US</a>
+                    <p class="inquiry">
+                        For inquiries about our human spaceflight program,
+                        contact
+                        <a href="mailto:sales@spacex.com">sales@spacex.com</a>
+                    </p>
+                    <a href="mailto:sales@spacex.com" class="btn-contact"
+                        >CONTACT US</a
+                    >
                 </div>
-              
-                
+
                 <div class="footer-bottom">
-                  <span class="copyright">SpaceX © 2025</span>
-                  <nav class="footer-nav">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Suppliers</a>
-                  </nav>
+                    <span class="copyright">SpaceX © 2025</span>
+                    <nav class="footer-nav">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Suppliers</a>
+                    </nav>
                 </div>
-              </footer>
-              
+            </footer>
         </main>
     </body>
 </html>
