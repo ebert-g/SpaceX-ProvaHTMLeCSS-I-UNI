@@ -97,9 +97,7 @@ nav ul li a {
     color: #757575;
 }
 
-#section_space_travel #formulario label {
-    
-}
+
 
 #section_space_travel #formulario input,
 #section_space_travel #formulario select {
@@ -198,6 +196,7 @@ footer{
     background-position: top center ;
     background-repeat: no-repeat;
     padding-top: 18%;
+    height: 500px;
    
 
 }
@@ -208,7 +207,12 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1rem;    
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 1rem; 
+    z-index: 10;   
 }
 
 .footer_text{
