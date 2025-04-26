@@ -51,7 +51,6 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #fff;
-    font-size: 16px;
     font-size: 13px;
     text-transform: uppercase;
     white-space: nowrap;
@@ -317,7 +316,7 @@ nav ul li a {
 .site-footer .inquiry {
     font-size: 0.875rem;
     line-height: 1.5;
-    text-align: center;
+    text-align: left;
 }
 
 .site-footer .inquiry a {
@@ -336,7 +335,8 @@ nav ul li a {
     letter-spacing: 0.05em;
     text-decoration: none;
     color: #fff;
-    margin-top: 4rem;
+    margin-left: -40rem;
+
     
 }
 
