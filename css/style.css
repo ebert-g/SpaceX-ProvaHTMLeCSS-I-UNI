@@ -339,8 +339,7 @@ nav ul li a {
     text-decoration: none;
     color: #fff;
     margin-left: -40rem;
-
-    
+ 
 }
 
 .site-footer .footer-bottom {
@@ -352,7 +351,6 @@ nav ul li a {
     gap: 4rem;
     width: max-content;
     
-   
 }
 
 .site-footer .footer-bottom .copyright {
@@ -386,5 +384,4 @@ nav ul li a {
     width: 100%;
     height: 2px;
     background-color: #fff;
-
 }
