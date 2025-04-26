@@ -18,44 +18,51 @@ main {
 
 
 #section_chamada {
-    display: flex;
-    justify-content: space-between;
-    gap: 05px;
-    flex-wrap: wrap;
-    margin: 3rem 0;
-    padding: 0 1rem;
+    display: flex;                  
+    justify-content: space-between;  
+    gap: 10px;                       
+    flex-wrap: nowrap;               
+    margin: 3rem 0;                 
+    padding: 0 1rem;                 
 }
 
 .div_chamada {
-    background-color: #000;
-    color: #fff;
-    width: calc(25% - 10px);
+    background-color: #000;         
+    color: #fff;                    
+    width: calc(25% - 10px);         
     padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0, 1);
-    margin-bottom: 10px;
+    display: flex;                  
+    flex-direction: column;         
+    align-items: center;            
+    border-radius: 10px;            
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 0;               
 }
 
 .div_chamada h3 {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
+    font-size: 1.2rem;             
+    margin-bottom: 0.5rem;          
 }
 
 .div_chamada button {
-    background-color: #ff4f5a;
-    color: #fff;
-    border: none;
+    background-color: #ff4f5a;      
+    color: #fff;                   
+    border: none;                   
+    padding: 0.5rem 1rem;          
+    cursor: pointer;                
+    margin-bottom: 0.75rem;        
+    text-transform: uppercase;      
+    border-radius: 5px;             
 }
 
-.div_chamada button:hover{
-    background-color: #e03c47;
+
+.div_chamada button:hover {
+    background-color: #e03c47;      
 }
 
-.div_chamada img{
-    
-    height: 100%;
-    border-radius: 5px;
+.div_chamada img {
+    width: 100%;                    
+    height: auto;                  
+    border-radius: 5px;             
+    margin-top: 0;                  
 }
