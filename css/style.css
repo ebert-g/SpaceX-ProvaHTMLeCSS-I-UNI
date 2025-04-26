@@ -50,13 +50,9 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #fff;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 0.5px;
+    font-size: 13px;
     text-transform: uppercase;
     white-space: nowrap;
-    line-height: normal;
 }
 
 #shop {
@@ -332,6 +328,7 @@ nav ul li a {
 .site-footer .inquiry a {
     color: #fff;
     text-decoration: underline;
+    
 }
 
 .site-footer .btn-contact {
@@ -344,7 +341,8 @@ nav ul li a {
     letter-spacing: 0.05em;
     text-decoration: none;
     color: #fff;
-    margin-top: 4rem;
+    margin-left: -40rem;
+ 
 }
 
 .site-footer .footer-bottom {
@@ -355,6 +353,7 @@ nav ul li a {
     margin-left: 2rem;
     gap: 4rem;
     width: max-content;
+    
 }
 
 .site-footer .footer-bottom .copyright {
@@ -377,6 +376,7 @@ nav ul li a {
     text-transform: uppercase;
     color: #fff;
     text-decoration: none;
+
 }
 
 .site-footer .footer-nav a::after {
