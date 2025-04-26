@@ -55,12 +55,18 @@ header {
     padding: 0.5rem 1rem;          
     cursor: pointer;                
     margin-bottom: 0.75rem;        
-    text-transform: uppercase;                     
+    text-transform: uppercase;
+    border: 2px solid #fff; 
+    font-weight: bold;
+    transition: all 0.3 ease;
+                      
 }
 
 
 .div_chamada button:hover {
-    background-color: #e03c47;      
+    background-color:darkslategrey;  
+    color: #000;
+    border: 2px solid #fff;   
 }
 
 .div_chamada img {
