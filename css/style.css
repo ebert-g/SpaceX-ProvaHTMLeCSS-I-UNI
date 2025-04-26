@@ -6,7 +6,7 @@
 body {
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: rgb(190, 0, 0);
 }
 
 main {
@@ -15,12 +15,7 @@ main {
     flex-direction: column;
 }
 
-header {
-    width: 1357px;
-    height: 34.416px;
-    padding: 31.9px 43px 4.7px 40.42px;
-    
-}
+
 
 #section_chamada {
     display: flex;
@@ -52,9 +47,4 @@ header {
     background-color: #ff4f5a;
     color: #fff;
     border: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-    border-radius: 5px;
 }
