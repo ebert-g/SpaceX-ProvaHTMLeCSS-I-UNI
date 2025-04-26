@@ -97,23 +97,18 @@ nav ul li a {
     color: #757575;
 }
 
-#section_space_travel #formulario label {
-    color: #757575;
-    margin-bottom: 8px;
-    display: block;
-    font-size: 14px;
-}
+
 
 #section_space_travel #formulario input,
 #section_space_travel #formulario select {
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;
+    border-radius: 5px;
     border: 1px solid #fff;
-    border-radius: 8px;
-    border: 1px solid #fff;
-    color: #1e1e1e;
-    font-size: 16px;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
 }
 
 #section_space_travel #formulario button {
@@ -189,81 +184,106 @@ nav ul li a {
     margin-top: 0;
 }
 
-footer {
-    background-color: #000;
-    color: #fff;
-    padding: 2rem 1rem;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-    background-image: url(/images/bg_footer.png);
-    background-size: cover;
-    background-position: top center;
-    background-repeat: no-repeat;
-    padding-top: 18%;
-    height: 500px;
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&display=swap');
+
+.site-footer {
+    
+        position: relative;
+        overflow: hidden;
+        /* volta uma pasta (css/) para chegar em images/ */
+        background: url('../images/bg_footer.png') no-repeat right bottom;
+        background-size: cover;
+        background-color: #000;
+        font-family: 'Source Sans 3', sans-serif;
+        color: #fff;
+        padding: 3rem 2rem 1rem;
+        min-height: 400px;
+      
 }
 
-.footer_container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translateX(-50%);
-    gap: 1rem;
-    z-index: 10;
+
+.site-footer .footer-bg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+  pointer-events: none;
+  z-index: 0;
 }
 
-.footer_text {
-    font-size: 1rem;
-    margin-bottom: 1rem;
+
+.site-footer .footer-top {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
 }
 
-.footer_text a {
-    color: #fff;
-    text-decoration: none;
+.site-footer .inquiry {
+  font-size: 0.875rem;   
+  line-height: 1.5;
+  text-align: center;
 }
 
-.contact-us-btn {
-    background-color: transparent;
-    color: #fff;
-    border: 2px solid #fff;
-    padding: 0.5rem 1.5rem;
-    text-transform: uppercase;
+.site-footer .inquiry a {
+  color: #fff;
+  text-decoration: underline;
 }
 
-.contact-us-btn:hover {
-    background-color: #fff;
-    color: #000;
+.site-footer .btn-contact {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  color: #fff;
 }
 
-.footer_links {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
+
+.site-footer .footer-bottom {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  width: max-content;
+  margin: 0 auto;
 }
 
-.footer_links a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 0.875rem;
+.site-footer .footer-bottom .copyright {
+  font-size: 0.875rem;
+  font-weight: 400;
 }
 
-.footer_image {
-    margin-top: 0%;
-    display: none;
+.site-footer .footer-nav {
+  display: flex;
+  gap: 4rem;
 }
 
-.footer_image img {
-    max-width: 150px;
-    height: auto;
+.site-footer .footer-nav a {
+  position: relative;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
 }
 
-.footer_copy {
-    font-size: 0.875rem;
-    opacity: 0.7;
-    margin-top: 1rem;
+.site-footer .footer-nav a::after {
+  content: '';
+  position: absolute;
+  bottom: -0.25rem;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
 }
