@@ -15,7 +15,12 @@ main {
     flex-direction: column;
 }
 
-
+header {
+    width: 1357px;
+    height: 34.416px;
+    padding: 31.9px 43px 4.7px 40px;
+    
+}
 
 #section_chamada {
     display: flex;                  
