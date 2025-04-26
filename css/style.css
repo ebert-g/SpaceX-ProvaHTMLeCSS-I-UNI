@@ -192,6 +192,8 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     gap: 15px;
+
+    
 }
 
 #section_chamada {
@@ -292,13 +294,13 @@ nav ul li a:hover {
 
 .site-footer {
     position: relative;
-    overflow: hidden;
+   overflow: hidden;
     background: url("../images/bg_footer.png") no-repeat right bottom;
     background-size: cover;
     background-color: #000;
     font-family: "Source Sans 3", sans-serif;
     color: #fff;
-    padding: 3rem 2rem 1rem;
+    padding: 8rem 2rem 1rem;
     min-height: 400px;
 }
 
@@ -315,23 +317,27 @@ nav ul li a:hover {
 
 .site-footer .footer-top {
     position: relative;
+    top: 7rem;
     z-index: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
-    margin-bottom: 2.5rem;
+    gap: 8rem;
+    margin-bottom: 1.5rem;
+    
 }
 
 .site-footer .inquiry {
-    font-size: 0.875rem;
+    font-size: 110%;
     line-height: 1.5;
     text-align: center;
+    margin-left: -40rem;
 }
 
 .site-footer .inquiry a {
     color: #fff;
     text-decoration: underline;
+    
 }
 
 .site-footer .btn-contact {
@@ -345,6 +351,7 @@ nav ul li a:hover {
     text-decoration: none;
     color: #fff;
     margin-left: -40rem;
+ 
 }
 
 .site-footer .footer-bottom {
@@ -355,6 +362,7 @@ nav ul li a:hover {
     margin-left: 2rem;
     gap: 4rem;
     width: max-content;
+    
 }
 
 .site-footer .footer-bottom .copyright {
@@ -366,7 +374,7 @@ nav ul li a:hover {
 
 .site-footer .footer-nav {
     display: flex;
-    gap: 6rem;
+    gap: 4rem;
     margin-top: 15rem;
 }
 
@@ -377,6 +385,7 @@ nav ul li a:hover {
     text-transform: uppercase;
     color: #fff;
     text-decoration: none;
+
 }
 
 .site-footer .footer-nav a::after {
