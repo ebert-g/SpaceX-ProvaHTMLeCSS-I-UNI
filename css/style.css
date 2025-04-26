@@ -97,18 +97,23 @@ nav ul li a {
     color: #757575;
 }
 
-
+#section_space_travel #formulario label {
+    color: #757575;
+    margin-bottom: 8px;
+    display: block;
+    font-size: 14px;
+}
 
 #section_space_travel #formulario input,
 #section_space_travel #formulario select {
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;
-    border-radius: 5px;
     border: 1px solid #fff;
-    background-color: #333;
-    color: white;
-    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    color: #1E1E1E;
+    font-size: 16px;
 }
 
 #section_space_travel #formulario button {
