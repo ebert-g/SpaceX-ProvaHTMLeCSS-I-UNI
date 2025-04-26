@@ -7,7 +7,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    background-color: #d10707;
+    background-color: #000000;
     font-family: "Source Sans 3", sans-serif;
 }
 
@@ -15,6 +15,7 @@ main {
     width: 1440px;
     height: 100%;
     /*overflow: hidden;  Impede que apareçam barras de rolagem */
+    background-color: #fff;
 }
 
 header {
@@ -24,6 +25,7 @@ header {
     width: 1357px;
     height: 34.416px;
     padding: 31.9px 43px 5px 40px;
+    background-color: #000000;
 }
 
 header img {
