@@ -11,13 +11,18 @@ body {
 
 main {
     width: 1440px;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
+    width: 1357px;
+    height: 34.416px;
+    padding: 31.9px 43px 4.7px 40.42px;
     
 }
 
-#section_chamada{
+#section_chamada {
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -26,7 +31,7 @@ header {
     padding: 0 1rem;
 }
 
-.div_chamada{
+.div_chamada {
     background-color: #000;
     color: #fff;
     width: calc(25% - 202px);
@@ -35,15 +40,15 @@ header {
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0,1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0, 1);
 }
 
-.div_chamada h3{
+.div_chamada h3 {
     font-size: 1.2rem;
     margin-bottom: 1rem;
 }
 
-.div_chamada button{
+.div_chamada button {
     background-color: #ff4f5a;
     color: #fff;
     border: none;
