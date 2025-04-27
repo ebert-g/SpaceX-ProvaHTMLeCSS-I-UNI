@@ -94,6 +94,9 @@ nav ul li a:hover {
 }
 
 #section_space_travel #formulario {
+    width: 100%;
+    max-width: 272px;
+    margin: 0 auto;
     position: absolute;
     top: 44px;
     left: 95.42px;
@@ -105,30 +108,39 @@ nav ul li a:hover {
 }
 
 #section_space_travel h2 {
-    width: 272px;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    letter-spacing: -0.48px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: -2px;
 }
 
 #section_space_travel #formulario p {
-    font-style: normal;
-    line-height: 140%;
     color: #757575;
+    margin-bottom: 10px;
 }
 
 #section_space_travel #formulario input,
 #section_space_travel #formulario select {
     width: 100%;
     padding: 12px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     border-radius: 8px;
     border: 1px solid #fff;
     background-color: #fff;
     font-size: 14px;
     color: #000;
+    text-align: left;
 }
+
+#addinfo {
+    height: 80px;
+}
+
+#formulario input::placeholder,
+#formulario select::placeholder {
+    color: #000000;
+}
+
 
 #section_space_travel #formulario label {
     display: flex;
@@ -136,12 +148,13 @@ nav ul li a:hover {
     gap: 8px;
     font-size: 0.875rem;
     font-weight: normal;
-    color: white;
+    color: #757575;
+    margin-bottom: 8px;
 }
 
 .checkbox-container {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 10px;
     font-size: 0.875rem;
     color: #757575;
@@ -192,8 +205,6 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     gap: 15px;
-
-    
 }
 
 #section_chamada {
@@ -294,7 +305,7 @@ nav ul li a:hover {
 
 .site-footer {
     position: relative;
-   overflow: hidden;
+    overflow: hidden;
     background: url("../images/bg_footer.png") no-repeat right bottom;
     background-size: cover;
     background-color: #000;
@@ -324,7 +335,6 @@ nav ul li a:hover {
     align-items: center;
     gap: 8rem;
     margin-bottom: 1.5rem;
-    
 }
 
 .site-footer .inquiry {
@@ -337,7 +347,6 @@ nav ul li a:hover {
 .site-footer .inquiry a {
     color: #fff;
     text-decoration: underline;
-    
 }
 
 .site-footer .btn-contact {
@@ -351,7 +360,6 @@ nav ul li a:hover {
     text-decoration: none;
     color: #fff;
     margin-left: -40rem;
- 
 }
 
 .site-footer .footer-bottom {
@@ -362,7 +370,6 @@ nav ul li a:hover {
     margin-left: 2rem;
     gap: 4rem;
     width: max-content;
-    
 }
 
 .site-footer .footer-bottom .copyright {
@@ -385,7 +392,6 @@ nav ul li a:hover {
     text-transform: uppercase;
     color: #fff;
     text-decoration: none;
-
 }
 
 .site-footer .footer-nav a::after {
