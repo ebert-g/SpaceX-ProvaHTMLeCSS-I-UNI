@@ -12,4 +12,4 @@ Este projeto é uma clonagem da página inicial do site da **SpaceX**, focada no
 Aqui está uma captura de tela do layout final do projeto:
 
 ![SpaceX Website Clone](telas/Captura%20de%20tela%202025-04-27%20002037.png)
-![SpaceX Website Clone](Captura%20de%20tela%202025-04-27%20002312.png)
+![SpaceX Website Clone](telas/Captura%20de%20tela%202025-04-27%20002312.png)
