@@ -1,4 +1,4 @@
-# SpaceX Website C
+# SpaceX Website
 
 Este projeto é uma clonagem da página inicial do site da **SpaceX**, focada no formulário de **Space Travel** e nas informações relacionadas às missões da SpaceX.
 
